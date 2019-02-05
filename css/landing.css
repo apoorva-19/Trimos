@@ -55,6 +55,11 @@ h3 {
     }
 }
 
+@media only screen and (min-width: 769px) {
+  .products{
+    margin-left: 18%;
+  } 
+}
 .flip {
   /* -webkit-perspective: 800;   
           perspective: 800; */
