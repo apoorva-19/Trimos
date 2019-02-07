@@ -118,18 +118,19 @@
     display: none;
   }
 
-@media only screen and (min-width: 768px){
-    section{
-        margin-bottom: 15em;
-    }
+.mission{
+    color:#02bcff;
+    font-family: 'Allan';
+    font-size: 2em;
+    text-align: center;
 }
-@media only screen and (max-width: 768px){
-    section{
-        margin-bottom: 25em;
-    }
+
+.title{
+    font-family: 'Caveat', cursive;
+    font-size: 4em;
 }
-@media only screen and (max-width: 375px){
-    section{
-        margin-bottom: 35em;
-    }
+
+.title-small{
+    font-family: 'Caveat', cursive;
+    font-size: 2.5em;
 }
