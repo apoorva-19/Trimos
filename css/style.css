@@ -125,6 +125,18 @@
     text-align: center;
 }
 
+.landing_section{
+  font-family: 'Allan';
+  font-size: 3em;
+  text-align: center;
+}
+
+.mini_landing_section{
+  font-family: 'Allan';
+  font-size: 2.5em;
+  text-align: center;
+}
+
 .title{
     font-family: 'Caveat', cursive;
     font-size: 4em;
