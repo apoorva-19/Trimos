@@ -96,17 +96,6 @@
     width: 100%;
   }
   
-  .slide {
-    background:#02bcff;
-    width: calc(100% / 4);
-    height: 4px;
-    position: absolute;
-    left: 0;
-    top: calc(100% - 4px);
-    -webkit-transition: left 0.3s ease-out;
-    transition: left 0.3s ease-out;
-  }
-  
   .tab-label-content {
     width: 100%;
   }
@@ -137,17 +126,17 @@
   text-align: center;
 }
 
-.title{
+.landing_title{
     font-family: 'Caveat', cursive;
     font-size: 4em;
 }
 
-.title-small{
+.landing_title-small{
     font-family: 'Caveat', cursive;
     font-size: 2.5em;
 }
 
-.title-tiny{
+.landing_title-tiny{
   font-family: 'Caveat', cursive;
   font-size: 1.8em;
 }

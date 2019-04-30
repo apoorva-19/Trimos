@@ -144,3 +144,12 @@ h3 {
 .footer{
   font: "Roboto"
 }
+
+.responsive{
+    margin-top:5rem;    
+}
+
+.responsive .active{
+    background-color: black !important;
+}
+
