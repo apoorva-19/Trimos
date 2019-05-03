@@ -1,0 +1,126 @@
+.product-title{
+    color:#0f23ba;
+    text-decoration: none;
+    font: 1.8rem "Lato", sans-serif;
+}
+
+.comp-name{
+    color: black;
+    letter-spacing: 0em;
+    text-transform: none;
+    font: 1.5rem "Roboto", sans-serif;
+}
+
+.tag-line{
+    color: gray;
+    letter-spacing: 0em;
+    text-transform: none;
+    font: 1.4rem "Roboto", sans-serif;
+}
+
+.features{
+    list-style-type: circle;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.features li{
+    font: 1.2rem "Lato", sans-serif;
+    margin-bottom: 1.2%;
+}
+
+
+.action-list{
+    list-style-type: none;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    font: 2.4rem "Lato", sans-serif;
+    margin-left:-1.3em;
+}
+
+.product-desc{
+    text-align:justify; 
+    font: 1.2rem "Lato", sans-serif;
+}
+
+.product-tab{
+    padding: 0;
+}
+
+.tab-wrap {
+    width:100%;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top:5%;
+  }
+  
+  input[type="radio"][name="tabs"] {
+    position: absolute;
+    z-index: -1;
+  }
+  input[type="radio"][name="tabs"]:checked + .tab-label-content label {
+    color: black;
+  }
+  input[type="radio"][name="tabs"]:checked + .tab-label-content .tab-content {
+    display: block;
+  }
+  input[type="radio"][name="tabs"]:nth-of-type(1):checked ~ .slide {
+    left: calc((100% / 4) * 0);
+  }
+  input[type="radio"][name="tabs"]:nth-of-type(2):checked ~ .slide {
+    left: calc((100% / 4) * 1);
+  }
+  input[type="radio"][name="tabs"]:nth-of-type(3):checked ~ .slide {
+    left: calc((100% / 4) * 2);
+  }
+  input[type="radio"][name="tabs"]:nth-of-type(4):checked ~ .slide {
+    left: calc((100% / 4) * 3);
+  }
+  input[type="radio"][name="tabs"]:first-of-type:checked ~ .slide {
+    left: 0;
+  }
+  
+  .tab-label {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.8);
+    background-color: #fafafa;
+    box-sizing: border-box;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    height: 3.5em;
+    -webkit-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+    width: 100%;
+  }
+  
+  .slide {
+    background:#0f23ba;
+    width: calc(100% / 4);
+    height: 4px;
+    position: absolute;
+    left: 0;
+    top: calc(100% - 4px);
+    -webkit-transition: left 0.3s ease-out;
+    transition: left 0.3s ease-out;
+  }
+  
+  .tab-label-content {
+    width: 100%;
+  }
+  .tab-label-content .tab-content {
+    position: absolute;
+    top: 6em;
+    left: 1em;
+    line-height: 130%;
+    display: none;
+  }

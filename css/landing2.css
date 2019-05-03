@@ -13,17 +13,6 @@
   min-height:80%;
 }
 
-.bgimg-2 {
-  background-image: url("../img/new_bg2.png");
-  min-height: 40%;
-}
-
-.bgimg-3 {
-  opacity: 0.7;
-  background-image: url("../img/landing_1_new.png");
-  min-height: 40%;
-}
-
 .caption {
   position: absolute;
   left: 0;
